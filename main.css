@@ -1,0 +1,24 @@
+a[href*="https://www.google.com"] {
+  color: green;
+}
+
+a[target] {
+  color: red;
+}
+
+#second-div  p:nth-child(odd) {
+  color: blue;
+}
+
+#second-div  p:nth-child(2n+2) {
+  color: red;
+}
+
+#first-div > p::after {
+  content: " - NEW";
+  color: yellow;
+}
+
+p:nth-child(8):hover {
+  font-style: italic;
+}
